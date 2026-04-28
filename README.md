@@ -178,7 +178,7 @@ Improves:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/dreamhome.git
+git clone https://github.com/Omozuas/dreamhome.git
 cd dreamhome
 ```
 
