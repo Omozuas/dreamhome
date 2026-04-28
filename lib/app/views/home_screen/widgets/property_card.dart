@@ -92,7 +92,7 @@ class _PropertyCardState extends State<PropertyCard> {
                           cacheManager: cacheService.manager,
                           width: double.infinity,
                           fit: BoxFit.cover,
-                          placeholder: (_, __) {
+                          placeholder: (_, _) {
                             return Container(
                               color: AppColors.border,
                               child: Center(
@@ -103,7 +103,7 @@ class _PropertyCardState extends State<PropertyCard> {
                               ),
                             );
                           },
-                          errorWidget: (_, __, ___) {
+                          errorWidget: (_, _, _) {
                             return Container(
                               color: AppColors.border,
                               child: Icon(

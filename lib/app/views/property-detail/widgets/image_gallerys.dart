@@ -42,7 +42,7 @@ class ImageGallerys extends StatelessWidget {
                 cacheManager: cacheService.manager,
                 fit: BoxFit.cover,
                 width: double.infinity,
-                placeholder: (_, __) {
+                placeholder: (_, _) {
                   return Container(
                     color: AppColors.border,
                     child: Center(
@@ -52,7 +52,7 @@ class ImageGallerys extends StatelessWidget {
                     ),
                   );
                 },
-                errorWidget: (_, __, ___) {
+                errorWidget: (_, _, _) {
                   return Container(
                     color: AppColors.border,
                     child: Icon(

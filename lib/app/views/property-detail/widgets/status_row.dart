@@ -1,6 +1,5 @@
 import 'package:dreamhome/app/apis/model/property_model.dart';
 import 'package:dreamhome/app/services/locators/locator_services.dart';
-import 'package:dreamhome/app/views/property-detail/property_detail.dart';
 import 'package:dreamhome/app/views/property-detail/widgets/status_badge.dart';
 import 'package:flutter/material.dart';
 
